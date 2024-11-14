@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sous les draps</title>
+    <style>
+        @media (max-width: 768px) {
+         h1 {
+             font-size: 30px; /* Réduire la taille du titre sur les petits écrans */
+         }
+         p {
+             font-size: 10px; /* Ajuster la taille du texte */
+         }
+         video {
+             width: 100%; /* Utiliser toute la largeur de l'écran pour les vidéos */
+         }
+        }
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: LEFT;
+            background-color: #000000; /* Couleur noire */
+            color: #FFFFFF; /* Couleur du texte en blanc */
+        }
+        h1 {
+            font-size: 60px;
+            font-weight: bold;
+            margin: 20px 0;
+            max-width: 600px; /* Limite la largeur du paragraphe */
+            text-align: LEFT;
+            text-justify: inter-word;
+            padding: 0 20px; 
+        }
+        p1 {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 20px auto;
+            max-width: 600px; /* Limite la largeur du paragraphe */
+            text-align: LEFT;
+            text-justify: inter-word;
+            padding: 0 20px; /* Ajoute de l’espace à gauche et à droite */
+        }        
+        p2 {
+            font-size: 18px;
+            font-weight: lighter;
+            margin: 20px auto;
+            max-width: 600px; /* Limite la largeur du paragraphe */
+            text-align: LEFT;
+            text-justify: inter-word;
+            padding: 0 20px; /* Ajoute de l’espace à gauche et à droite */
+        }
+        video {
+            width: 80%;
+            max-width: 600px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Titre principal -->
+    <h1>Sous les draps</h1>
+
+    <!-- Première vidéo, lecture en boucle et démarrage automatique -->
+    <video autoplay loop muted>
+        <source src="GRAPHO.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo.
+    </video>
+
+    <!-- Texte introductif -->
+    <p1>Et si l’on regardait de plus près… non pas sous les draps, mais dans les draps, dans ces plis qui tracent l’histoire d’une nuit, d’un sommeil profond, de rêves ?</p1>
+    <p2>Les plis des draps sont une trace de l’inconscience sur la réalité, c’est notre esprit qui écrit. Mais alors, comment garder une trace de ce mouvement éphémère que l’on lisse tous les matins et que l’on recrée chaque nuit ?
+        Ce projet d’affiche est une tentative de marquer ces plis temporaires afin d’en apprendre davantage sur notre sommeil, notre inconscience et nos rêves. Je me suis donc inspirée de la réflexion de Sigmund Freud sur l’interprétation des rêves et du travail des surréalistes sur les expérimentations liées au sommeil profond et à l’inconscience. Ces deux angles, ambivalents, alliant approche scientifique et artistique, témoignent de l’inaccessibilité de nos songes. Les recherches de Doli Trost sur la graphomanie entoptique m’ont permis de transcrire graphiquement la présence du pli au-delà de la matière des draps. À l’inverse, les écrits de Freud, à travers une nuit de sommeil, se voient disparaître pour marquer, par leur absence, la présence invisible des plis. Ce projet, qui tient autant à sa finalité qu’à son processus, se devait d’être documenté, comme l’auraient fait Freud ou Breton, tentant de percer à jour leurs rêves.</p>
+    </p2>
+    <!-- Deuxième vidéo, lecture normale -->
+    <video controls>
+        <source src="IMG_1205_1.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo.
+    </video>
+    <p2>Conception graphique et fabrication : Joséphine Constant <br> DSAA 1 Graphisme Transmédia, ENSAAMA 2024 </p2>
+
+</body>
+</html>
